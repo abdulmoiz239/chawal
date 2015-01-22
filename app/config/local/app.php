@@ -14,5 +14,12 @@ return array(
 	*/
 
 	'debug' => true,
-
+    'providers' => append_config(array(
+    // ...
+    'Rocketeer\RocketeerServiceProvider',
+)),
+    'aliases' => append_config(array(
+    // ...
+    'Rocketeer' => 'Rocketeer\Facades\Rocketeer',
+)),
 );

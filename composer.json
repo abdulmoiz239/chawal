@@ -5,9 +5,7 @@
 	"license": "MIT",
 	"type": "project",
 	"require": {
-		"laravel/framework": "4.2.*",
-                "mwhite/random-uagent": "*",
-                "masih/youtubedownloader": "1.1"
+		"laravel/framework": "4.2.*"
 	},
 	"autoload": {
 		"classmap": [
@@ -35,5 +33,8 @@
 	"config": {
 		"preferred-install": "dist"
 	},
-	"minimum-stability": "stable"
+	"minimum-stability": "stable",
+	"require-dev": {
+		"anahkiasen/rocketeer": "~2.0"
+	}
 }
