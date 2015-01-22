@@ -1,0 +1,153 @@
+.logo img {
+	padding-top: 20px;
+	width: 250px;
+}
+.members-buttons {
+	margin-top: 30px;
+}
+.login-btn {
+	margin-top: 20px;
+	padding: 10px 20px 10px 15px;
+	background: #34D96E;
+	border-radius: 5px;
+	font-family: Arial;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.login-btn:hover {
+	background: #16C955;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.signup-btn {
+	margin-top: 20px;
+	padding: 10px 20px 10px 15px;
+	background: #FFA500;
+	border-radius: 5px;
+	font-family: Arial;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.signup-btn:hover {
+	background: #D18700;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.main-menu ul {
+	margin-top: 20px;
+}
+.main-menu li {
+	padding: 5px 15px;
+	border: 2px solid #FFF;
+	-webkit-transition-duration: .5s;
+	-o-transition-duration: .5s;
+	transition-duration: .5s;
+}
+.main-menu ul li a {
+	padding-bottom: 5px;
+	color: #9b2828;
+	font-size: 16px;
+	text-decoration: none;
+	-webkit-transition-duration: .2s;
+	-o-transition-duration: .2s;
+	transition-duration: .2s;
+}
+.main-menu ul li:hover {
+	border: 2px solid #9b2828;
+}
+.main-menu ul li a:hover {
+	
+}
+.main-menu ul li.active {
+	border: 2px solid #9b2828;
+}
+.main-menu ul li.active a {
+	color: #9b2828;
+}
+.banner-header {
+	text-align: center;
+	margin: 20px auto;
+}
+.recent {
+	padding: 20px 0;
+}
+.advertising-bottom {
+	padding: 20px 0;
+}
+.footer {
+	height: 50px;
+	line-height: 50px;
+	background-color: #666666;
+	color: #FFF;
+}
+.footer a {
+	color: #F9F9F9;
+}
+
+#myCarousel .carousel-indicators {
+    bottom: 0;
+    left: 10px;
+    margin-left: 5px;
+    width: 100%;
+}
+
+#myCarousel .carousel-indicators li {
+    border: medium none;
+    border-radius: 0;
+    float: left;
+    height: 44px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 5px !important;
+    margin-top: 0;
+    width: 120px;
+}
+
+#myCarousel .carousel-indicators img {
+    border: 2px solid #FFFFFF;
+    float: left;
+    height: 44px;
+    left: 0;
+    width: 120px;
+}
+
+#myCarousel .carousel-indicators .active img {
+    border: 2px solid #39b3d7;
+
+}
+
+
+
+body { padding-top: 50px; }
+
+#myCarousel .carousel-caption {
+    left:0;
+	right:0;
+	bottom:0;
+	text-align:left;
+	padding:10px;
+	background:rgba(0,0,0,0.6);
+	text-shadow:none;
+}
+
+#myCarousel .list-group {
+	position:absolute;
+	top:0;
+	right:0;
+}
+#myCarousel .list-group-item {
+	border-radius:0px;
+	cursor:pointer;
+}
+#myCarousel .list-group .active {
+	background-color:#eee;	
+}
+
+@media (min-width: 992px) { 
+	#myCarousel {padding-right:33.3333%;}
+	#myCarousel .carousel-controls {display:none;} 	
+}
+@media (max-width: 991px) { 
+	.carousel-caption p,
+	#myCarousel .list-group {display:none;} 
+}
